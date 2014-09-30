@@ -1,0 +1,25 @@
+/* _variables.scss */
+
+$row-class-name:			'.row' !default;
+$col-class-name: 			'.col' !default;
+
+// rows
+$row-wrap: 					$row-class-name + '-wrap' !default;
+$row-wrap-reversed: 		$row-wrap + '-reversed' !default;
+
+$row-horizontal:			$row-class-name + '-horizontal' !default;
+$row-vertical: 				$row-class-name + '-vertical' !default;
+
+$row-reversed: 				$row-class-name + '-reverse' !default;
+
+$row-start:					$row-class-name + '-start' !default;
+$row-end: 					$row-class-name + '-end' !default; 
+$row-center: 				$row-class-name + '-center' !default;
+$row-between:				$row-class-name + '-between' !default;
+$row-around: 				$row-class-name + '-around' !default;
+
+// cols
+$col-widths: 				(0, 10, 15, 20, 25, 33, 50, 66, 75, 80, 85, 90, 100) !default;
+$col-grows: 				(2, 3, 4) !default;
+
+$offset-prefix: 			'offset' !default;

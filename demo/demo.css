@@ -1,0 +1,57 @@
+/* reset */
+html, body{
+	height: 100%;
+	width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* Colours from http://www.colourlovers.com/palette/629637/(%E2%97%95%E3%80%9D%E2%97%95) */
+
+.demo{
+	margin: 25px 0;
+}
+
+.box {
+	height: 100px;
+	width: 100%;
+	font-family: "Helvetica";
+	font-weight: 700;
+	color: #fff;
+	font-size: 15px;
+	position: relative;
+
+}
+
+.box span{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	display: block;
+	width: 100%;
+}
+
+.box.pink{
+	background-color: #FE4365;
+}
+
+.box.pinkclear{
+	background-color: #FC9D9A;
+}
+
+.box.champagne{
+	background-color: #F9CDAD;
+}
+
+.box.grey{
+	background-color: #C8C8A9;
+}
+
+.box.blue{
+	background-color: #83AF9B;
+}

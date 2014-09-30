@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>FlexGrid</title>
+	<link rel="stylesheet" href="src/main.css">
+	<link rel="stylesheet" href="demo/demo.css">
+</head>
+<body>
+	<section class="demo">
+		<h1>Normal</h1>
+		<div class="row">
+			<div class="col col-25 box pink">
+				<span>Pink</span>
+			</div>
+			<div class="col col-50 box blue">
+				<span>Blue</span>
+			</div>
+			<div class="col col-25 box grey">
+				<span>Grey</span>
+			</div>
+		</div>
+	</section>
+
+	<section class="demo">
+		<h1>Grow</h1>
+		<div class="row">
+			<div class="col box pink">
+				<span>Pink</span>
+			</div>
+			<div class="col col-2x box blue">
+				<span>Blue</span>
+			</div>
+			<div class="col box grey">
+				<span>Grey</span>
+			</div>
+		</div>
+	</section>
+
+	<section class="demo">
+		<h1>Wrap</h1>
+		<div class="row row-wrap">
+			<div class="col col-25 box box pink"><span>25%</span></div>
+			<div class="col col-25 box box pink"><span>25%</span></div>
+			<div class="col col-25 box box pink"><span>25%</span></div>
+			<div class="col col-25 box box pink"><span>25%</span></div>
+			<div class="col col-25 box box pink"><span>25%</span></div>
+		</div>
+	</section>
+
+	<section class="demo">
+		<h1>Horizontal</h1>
+		<div class="row row-vertical">
+			<div class="col col-50 box blue"><span>Hello</span></div>
+			<div class="col col-50 box blue"><span>Goodbye</span></div>
+		</div>
+	</section>
+</body>
+</html>
